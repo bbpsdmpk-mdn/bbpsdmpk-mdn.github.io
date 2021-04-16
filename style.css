@@ -3,3 +3,57 @@
     text-align: right;
     color: black;
 }
+.baris1{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #1E90FF;
+}
+
+.baris2{
+  padding-bottom: 5%;
+  background-color: #1E90FF;
+}
+.baris3{
+  padding-bottom: 5%;
+  background-color: #1E90FF;
+}
+
+
+.baris1, .baris2, .baris3 > div {
+  text-align: center;
+  display: center;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  padding: 0px;
+}
+
+.col-1 {width: 5%;}
+.col-2 {width: 22.5%;}
+.col-3 {width: 5%;}
+
+.col-4 {width: 22.5%;}
+.col-5 {width: 7%;}
+.col-6 {width: 7%;}
+.col-7 {width: 7.25%;}
+
+.kolom{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #1E90FF;
+}
+.col-8 {width: 50%;}
+.col-9 {width: 50%;}
+
+.contact-card{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:   #191970;
+}
